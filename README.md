@@ -1,73 +1,46 @@
-# Welcome to your Lovable project
+# Real-Time Exercise Monitoring and Posture Correction System
 
-## Project info
+## Overview
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+A real-time exercise monitoring and posture correction system developed using computer vision and machine learning. The system uses webcam video to detect body keypoints, analyze exercise posture, count repetitions, and provide feedback when incorrect posture is identified.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- Real-time webcam-based exercise monitoring
+- Human body-keypoint detection
+- Joint-angle-based posture analysis
+- Correct and incorrect posture classification
+- Automatic repetition counting
+- Real-time posture feedback
+- Web-based user interface
+- Support for exercises such as squats and bicep curls
 
-**Use Lovable**
+## Technologies Used
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
+- Python
+- OpenCV
+- MediaPipe
+- HTML
 - Tailwind CSS
+- Lovable app
 
-## How can I deploy this project?
+## Working Process
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+1. The webcam captures the user's exercise movements.
+2. OpenCV processes the video frames.
+3. MediaPipe detects body keypoints.
+4. The system calculates angles between body joints.
+5. Exercise-specific rules analyze the posture.
+6. The system counts repetitions and displays feedback.
 
-## Can I connect a custom domain to my Lovable project?
+## Project Applications
 
-Yes, you can!
+- Home workout assistance
+- Gym training
+- Fitness monitoring
+- Exercise posture correction
+- Rehabilitation support
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Project Type
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Final-year academic project developed by a team of four members.
